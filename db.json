@@ -1,38 +1,9 @@
-[
-  {
-    "id": 1,
-    "server": "ik.ikevserver.info"
-    "name": "uk1"
-
-  },
 {
-    "id": 2,
-    "server": "ik2.ikevserver.info"
-    "name": "uk2"
-
-  },
- {
-    "id": 3,
-    "server": "ik3.ikevserver.info"
-    "name": "uk3"
-
-  },
- {
-    "id": 4,
-    "server": "ik4.ikevserver.info"
-    "name": "Holland"
-
-  },
- {
-    "id": 5,
-    "server": "ik5.ikevserver.info"
-    "name": "USA"
-
-  },
- {
-    "id": 6,
-    "server": "ik7.ikevserver.info"
-    "name": "France"
-
-  }
-]
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode","views":3 }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
